@@ -5,7 +5,7 @@
 }
 
 /* media query responsive mobile */
-@media screen and (max-width: 576px) {
+@media only  screen and (max-width: 576px) {
     .home-container{
         display: grid;
         grid-template-columns: 1fr;
@@ -13,7 +13,7 @@
     }
 }
 /* media query responsive tab */
-@media screen and (max-width: 576px) and (min-width: 768px) {
+@media only  screen and (max-width: 576px) and (min-width: 768px) {
     .home-container{
         display: grid;
         grid-template-columns: repeat(2 1fr);
